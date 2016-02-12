@@ -46,7 +46,7 @@ class apt::params {
   }
 
   $root           = '/etc/apt'
-  $provider       = '/usr/bin/apt-get'
+  $provider       = '/usr/bin/apt-fast'
   $sources_list   = "${root}/sources.list"
   $sources_list_d = "${root}/sources.list.d"
   $conf_d         = "${root}/apt.conf.d"
